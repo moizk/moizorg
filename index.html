@@ -2,22 +2,14 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="moiz-jumbotron">
+  <h1>Moiz K. Malik</h1>
+  <h2>CTO <a href="#">@nooklyn</a></h2>
+</div>
+<div class="moiz-about">
+  <div class="narrow-container">
+    <h2>About</h2>
+    <h3>&nbsp;</h3>
+    <p>I'm living in <a href="https://nooklyn.com/guides/1">Bushwick, Brooklyn</a>. I'm the CTO at <a href="https://nooklyn.com">Nooklyn</a> (the simplest way to find an apartment, roommate, or location in Brooklyn). My side project is Campusvine, a web app that enables students to plan and budget events.</p>
+  </div>
 </div>
