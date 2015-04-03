@@ -68,8 +68,7 @@ div.moiz-jumbotron {
 div.moiz-about {
   /* Positioning */
   /* Box-model */
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding: 150px 15px;
   /* Typography */
   /* Visual */
   /* Misc */
@@ -119,6 +118,160 @@ div.moiz-about {
       /* Box-model */
       /* Typography */
       color: #df4a37;
+      /* Visual */
+      /* Misc */
+    }
+  }
+}
+
+div.moiz-work {
+  /* Positioning */
+  /* Box-model */
+  padding: 150px 15px;
+  /* Typography */
+  /* Visual */
+  background-color: #eeecea;
+  /* Misc */
+  h2 {
+    /* Positioning */
+    /* Box-model */
+    margin-bottom: 0;
+    /* Typography */
+    font-size: 42px;
+    /* Visual */
+    /* Misc */
+  }
+  h3 {
+    /* Positioning */
+    /* Box-model */
+    margin-top: 0;
+    max-width: 100px;
+    border-bottom: 1px solid #111;
+    /* Typography */
+    /* Visual */
+    /* Misc */
+  }
+  p.lead {
+    /* Positioning */
+    /* Box-model */
+    max-width: 310px;
+    /* Typography */
+    font-family: 'Mercury SSm A', 'Mercury SSm B';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.6;
+    /* Visual */
+    /* Misc */
+  }
+  a {
+    /* Positioning */
+    /* Box-model */
+    /* Typography */
+    font-weight: 700;
+    color: #111;
+    text-decoration: none;
+    /* Visual */
+    /* Misc */
+    &:hover {
+      /* Positioning */
+      /* Box-model */
+      /* Typography */
+      color: #df4a37;
+      /* Visual */
+      /* Misc */
+    }
+  }
+}
+
+div.moiz-work-card {
+  /* Positioning */
+  /* Box-model */
+  padding-top: 50px;
+  max-width: 940px;
+  margin: 0 auto;
+  /* Typography */
+  /* Visual */
+  /* Misc */
+  div.moiz-work-card-stub {
+    /* Positioning */
+    /* Box-model */
+    padding: 20px 20px 50px 20px;
+    /* Typography */
+    /* Visual */
+    background-color: #fff;
+    /* Misc */
+    p {
+      /* Positioning */
+      /* Box-model */
+      /* Typography */
+      font-family: 'Mercury SSm A', 'Mercury SSm B';
+      font-size: 16px;
+      font-weight: 300;
+      font-style: normal;
+      line-height: 1.6;
+      text-align: center;
+      /* Visual */
+      /* Misc */
+    }
+  }
+}
+
+div.moiz-contact {
+  /* Positioning */
+  /* Box-model */
+  padding: 150px 15px;
+  /* Typography */
+  /* Visual */
+  background-color: #052e91;
+  color: #fffef9;
+  /* Misc */
+  h2 {
+    /* Positioning */
+    /* Box-model */
+    margin-bottom: 0;
+    /* Typography */
+    font-size: 42px;
+    /* Visual */
+    /* Misc */
+  }
+  h3 {
+    /* Positioning */
+    /* Box-model */
+    margin-top: 0;
+    max-width: 100px;
+    border-bottom: 1px solid #fffef9;
+    /* Typography */
+    /* Visual */
+    /* Misc */
+  }
+  p {
+    /* Positioning */
+    /* Box-model */
+    max-width: 310px;
+    /* Typography */
+    font-family: 'Mercury SSm A', 'Mercury SSm B';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.6;
+    /* Visual */
+    /* Misc */
+  }
+  a {
+    /* Positioning */
+    /* Box-model */
+    /* Typography */
+    font-weight: 700;
+    color: #fffef9;
+    text-decoration: none;
+    /* Visual */
+    /* Misc */
+    &:hover {
+      /* Positioning */
+      /* Box-model */
+      /* Typography */
+      color: #ffc03a;
       /* Visual */
       /* Misc */
     }
