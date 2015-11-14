@@ -193,6 +193,9 @@ div.moiz-work-card {
   /* Typography */
   /* Visual */
   /* Misc */
+  img {
+    max-height: 400px;
+  }
   div.moiz-work-card-stub {
     /* Positioning */
     /* Box-model */
@@ -275,5 +278,22 @@ div.moiz-contact {
       /* Visual */
       /* Misc */
     }
+  }
+}
+
+.text-center {
+  h4 {
+    /* Positioning */
+    /* Box-model */
+    margin: 0 auto 40px auto;
+    max-width: 100px;
+    border-bottom: 1px solid #111;
+    /* Typography */
+    /* Visual */
+    /* Misc */
+  }
+  text-align: center;
+  img {
+    margin: 0 auto;
   }
 }
