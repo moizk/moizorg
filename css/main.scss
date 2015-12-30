@@ -3,6 +3,7 @@
 ---
 @charset "utf-8";
 {% include normalize.css %}
+{% include animate.css %}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -23,9 +24,18 @@ div.moiz-jumbotron {
   font-style: normal;
   text-align: center;
   /* Visual */
-  background-color: #111;
-  color: #fff;
+  background-color: #ffc03a;
+  color: #222;
   /* Misc */
+  img {
+    /* Positioning */
+    /* Box-model */
+    max-width: 200px;
+    margin-bottom: 20px;
+    /* Typography */
+    /* Visual */
+    /* Misc */
+  }
   h1 {
     /* Positioning */
     /* Box-model */
@@ -48,18 +58,17 @@ div.moiz-jumbotron {
     /* Misc */
   }
   a {
-    color: #fff;
+    color: #222222;
     text-decoration: none;
     -webkit-transition: all .3s ease-in-out;
        -moz-transition: all .3s ease-in-out;
             transition: all .3s ease-in-out;
-
     &:hover {
       /* Positioning */
       /* Box-model */
       /* Typography */
       /* Visual */
-      color: #ffc03a;
+      color: #333;
       /* Misc */
     }
   }
@@ -296,4 +305,10 @@ div.moiz-contact {
   img {
     margin: 0 auto;
   }
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
