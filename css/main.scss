@@ -15,6 +15,12 @@ body {
   font-family: 'Gotham SSm A', 'Gotham SSm B';
 }
 
+/*****************************************************************************/
+/*
+/* Introduction Section
+/*
+/*****************************************************************************/
+
 div.moiz-jumbotron {
   /* Positioning */
   /* Box-model */
@@ -77,6 +83,12 @@ div.moiz-jumbotron {
     }
   }
 }
+
+/*****************************************************************************/
+/*
+/* About Section
+/*
+/*****************************************************************************/
 
 div.moiz-about {
   /* Positioning */
@@ -150,44 +162,93 @@ div.moiz-about {
   }
 }
 
+/*****************************************************************************/
+/*
+/* Work Section
+/*
+/*****************************************************************************/
+
 div.moiz-work {
   /* Positioning */
   /* Box-model */
   padding: 150px 15px;
   /* Typography */
   /* Visual */
-  background-color: #eeecea;
+  background-color: #1d1d1d;
   /* Misc */
+  img {
+    /* Positioning */
+    /* Box-model */
+    max-width: 200px;
+    margin-bottom: 40px;
+    /* Typography */
+    /* Visual */
+    /* Misc */
+  }
   h2 {
     /* Positioning */
     /* Box-model */
-    margin-bottom: 0;
+    margin-top: 0 auto;
     /* Typography */
     font-size: 42px;
+    text-align: center;
     /* Visual */
+    color: #fff;
     /* Misc */
   }
   h3 {
     /* Positioning */
     /* Box-model */
-    margin-top: 0;
-    max-width: 100px;
-    border-bottom: 1px solid #111;
+    margin: 0 auto;
+    width: 100px;
     /* Typography */
+    text-align: center;
+    /* Visual */
+    border-bottom: 1px solid #fff;
+    /* Misc */
+  }
+  h4 {
+    /* Positioning */
+    /* Box-model */
+    /* Typography */
+    text-align: center;
+    color: #ffc03a;
     /* Visual */
     /* Misc */
   }
-  p.lead {
+  hr {
+    /* Positioning */
+    /* Box-model */
+    max-width: 400px;
+    margin: 60px auto 50px auto;
+    /* Typography */
+    /* Visual */
+    border-color: #4e4e4e;
+    /* Misc */
+  }
+  img#nooklyn-logo {
+    /* Positioning */
+    /* Box-model */
+    margin-bottom: 0;
+    /* Typography */
+    color: #fff;
+    /* Visual */
+    /* Misc */
+  }
+  p {
     /* Positioning */
     /* Box-model */
     max-width: 310px;
+    margin: 60px auto 0 auto;
     /* Typography */
     font-family: 'Mercury SSm A', 'Mercury SSm B';
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
     font-style: normal;
     line-height: 1.6;
+    text-align: justify;
     /* Visual */
+    color: #fff;
     /* Misc */
   }
   a {
@@ -210,41 +271,31 @@ div.moiz-work {
   }
 }
 
-div.moiz-work-card {
+div.moiz-work-ss {
   /* Positioning */
   /* Box-model */
-  padding-top: 50px;
-  max-width: 940px;
   margin: 0 auto;
+  max-width: 99%;
   /* Typography */
+  text-align: center;
   /* Visual */
   /* Misc */
   img {
-    max-height: 400px;
-  }
-  div.moiz-work-card-stub {
     /* Positioning */
     /* Box-model */
-    padding: 20px 20px 50px 20px;
+    max-width: 330px;
     /* Typography */
     /* Visual */
-    background-color: #fff;
     /* Misc */
-    p {
-      /* Positioning */
-      /* Box-model */
-      /* Typography */
-      font-family: 'Mercury SSm A', 'Mercury SSm B';
-      font-size: 16px;
-      font-weight: 300;
-      font-style: normal;
-      line-height: 1.6;
-      text-align: center;
-      /* Visual */
-      /* Misc */
-    }
   }
 }
+
+
+/*****************************************************************************/
+/*
+/* Contact Section
+/*
+/*****************************************************************************/
 
 div.moiz-contact {
   /* Positioning */
@@ -255,36 +306,51 @@ div.moiz-contact {
   background-color: #052e91;
   color: #fffef9;
   /* Misc */
+  img {
+    /* Positioning */
+    /* Box-model */
+    max-width: 200px;
+    margin-bottom: 40px;
+    /* Typography */
+    /* Visual */
+    /* Misc */
+  }
   h2 {
     /* Positioning */
     /* Box-model */
-    margin-bottom: 0;
+    margin-top: 0 auto;
     /* Typography */
     font-size: 42px;
+    text-align: center;
     /* Visual */
+    color: #fff;
     /* Misc */
   }
   h3 {
     /* Positioning */
     /* Box-model */
-    margin-top: 0;
-    max-width: 100px;
-    border-bottom: 1px solid #fffef9;
+    margin: 0 auto;
+    width: 100px;
     /* Typography */
+    text-align: center;
     /* Visual */
+    border-bottom: 1px solid #fff;
     /* Misc */
   }
   p {
     /* Positioning */
     /* Box-model */
     max-width: 310px;
+    margin: 60px auto 0 auto;
     /* Typography */
     font-family: 'Mercury SSm A', 'Mercury SSm B';
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
     font-style: normal;
     line-height: 1.6;
+    text-align: justify;
     /* Visual */
+    color: #fff;
     /* Misc */
   }
   a {
@@ -307,6 +373,33 @@ div.moiz-contact {
   }
 }
 
+/*****************************************************************************/
+/*
+/* Helpers
+/*
+/*****************************************************************************/
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
 .text-center {
   h4 {
     /* Positioning */
@@ -322,10 +415,4 @@ div.moiz-contact {
   img {
     margin: 0 auto;
   }
-}
-
-.center-block {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
 }
