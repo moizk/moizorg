@@ -27,11 +27,15 @@ div.moiz-jumbotron {
   background-color: #ffc03a;
   color: #222;
   /* Misc */
+  @media screen and (max-width: 500px) {
+    padding-top: 100px;
+    height: 550px;
+  }
   img {
     /* Positioning */
     /* Box-model */
     max-width: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     /* Typography */
     /* Visual */
     /* Misc */
@@ -42,7 +46,7 @@ div.moiz-jumbotron {
     margin: 0;
     /* Typography */
     font-weight: 700;
-    font-size: 12px;
+    font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 3px;
     /* Visual */
@@ -52,7 +56,7 @@ div.moiz-jumbotron {
     /* Positioning */
     /* Box-model */
     /* Typography */
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 400;
     /* Visual */
     /* Misc */
