@@ -199,7 +199,7 @@ div.moiz-work {
   h3 {
     /* Positioning */
     /* Box-model */
-    margin: 0 auto;
+    margin: 0 auto 60px auto;
     width: 100px;
     /* Typography */
     text-align: center;
@@ -239,7 +239,7 @@ div.moiz-work {
     /* Positioning */
     /* Box-model */
     max-width: 310px;
-    margin: 60px auto 0 auto;
+    margin: 20px auto 0 auto;
     /* Typography */
     font-family: 'Mercury SSm A', 'Mercury SSm B';
     font-size: 15px;
@@ -280,6 +280,9 @@ div.moiz-work-ss {
   text-align: center;
   /* Visual */
   /* Misc */
+  ul {
+    margin-bottom: 0;
+  }
   img {
     /* Positioning */
     /* Box-model */
